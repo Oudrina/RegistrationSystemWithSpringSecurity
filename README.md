@@ -11,7 +11,7 @@ This is a backend-only authentication system built with Spring Boot and Spring S
 
 📄 Persistent user storage via JPA/Hibernate
 
-Tech Stack
+# Tech Stack
 Java 17+
 
 Spring Boot
