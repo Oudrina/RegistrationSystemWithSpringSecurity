@@ -29,7 +29,7 @@ public class SecurityConfig {
                 .httpBasic(Customizer.withDefaults())
 //                .formLogin(Customizer.withDefaults())
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/user/register", "/user/login", "/")
+                        .requestMatchers("/user/register", "/user/login", "/" ,"/products/**")
                         .permitAll()
                         .anyRequest().authenticated())
 
